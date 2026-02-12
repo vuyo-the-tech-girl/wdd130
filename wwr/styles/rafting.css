@@ -95,3 +95,104 @@ nav a {
     color: #333;
     margin: 0 1rem;
 }
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+}
+
+header {
+    background-color: #e6e6fa;
+    padding: 20px;
+    text-align: center;
+}
+
+header .logo {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background: #ccc;
+    border-radius: 5px;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+nav button {
+    padding: 10px 20px;
+    border: none;
+    background: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+.contact-info {
+    margin-bottom: 20px;
+}
+
+.contact-info h1 {
+    font-size: 24px;
+}
+
+.map-container {
+    display: inline-block;
+    width: 50%;
+}
+
+.map-container img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.contact-form {
+    display: inline-block;
+    width: 40%;
+    vertical-align: top;
+    text-align: left;
+    margin-left: 20px;
+}
+
+.form-group {
+    margin-bottom: 10px;
+}
+
+.form-group input[type="text"],
+.form-group input[type="email"]
+.form-group textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.form-group textarea {
+    height: 100px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+button[type="submit"] {
+    background: #e6e6fa;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+footer {
+    background: #e6e6fa;
+    padding: 20px;
+    text-align: center;
+}
