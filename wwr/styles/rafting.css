@@ -76,7 +76,7 @@ header {
     display: grid;
     grid-template-columns: 1fr 2fr;
     align-items: center;
-    padding: 1rem;
+    padding: 5rem;
 }
 
 header img {
@@ -141,22 +141,34 @@ main {
     font-size: 24px;
 }
 
-.map-container {
-    display: inline-block;
-    width: 50%;
+.contact-section {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 470px;
+    justify-content: space-between;
 }
 
-.map-container img {
-    width: 100%;
-    border-radius: 10px;
+.map-wrapper, .form-wrapper {
+    flex: 1;
+    min-width: 50px;
 }
 
-.contact-form {
-    display: inline-block;
-    width: 40%;
-    vertical-align: top;
-    text-align: left;
-    margin-left: 20px;
+.employee-profiles {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.team-member img {
+    max-width: 100%;
+    height: auto;
+}
+
+.team-member {
+    text-align: center;
+    margin: 10px;
+    flex: 1;
+    min-width: 200px;
 }
 
 .form-group {
